@@ -14,13 +14,13 @@ public struct Command<T> {
     self.action = action
   }
   
-  func perform(with value: T) {
+  public func perform(with value: T) {
     action(value)
   }
 }
 
 public extension Command where T == Void {
-  func perform() {
+  public func perform() {
     perform(with: ())
   }
 }
