@@ -1,10 +1,3 @@
-//
-//  Command.swift
-//  
-//
-//  Created by Illia Khrypunov on 2/6/20.
-//
-
 import Foundation
 
 public struct Command<T> {
